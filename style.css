@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #2f3b96;
+  background-image: linear-gradient(to bottom right, #786cff, #18226a);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Philosopher', sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  font-family: cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #c2c9ff;
+}
+
+p {
+  font-size: 2rem;
+  color: #c2c9ff;
+  margin: 0;
+  text-shadow: 4px 0 #232931;
+  line-height: 40px;
+}
+
+span {
+  text-decoration: underline;
+}
+
+img {
+  margin: 50px 0 100px 0;
+  width: 400px;
+  cursor: pointer;
+}
+
+a {
+  color: white;
+}
+
+footer {
+  font-size: 20px;
+  color: #EEEEEE;
+  text-align: center;
+}
+
+@media (max-width: 575.98px) {
+   h1 {
+    font-size: 50px;
+   }
+
+   img {
+    width: 375px;
+    margin: 70px 0 180px 0;
+   }
+
+   p {
+    font-size: 25px;
+    line-height: 30px;
+   }
+
+   #p2 {
+    margin-top: 10px;
+   }
+
+   footer {
+    padding: 0 5px 0 5px;
+   }
+}
+
+
