@@ -51,13 +51,17 @@ footer {
 }
 
 @media (max-width: 575.98px) {
-   h1 {
-    font-size: 50px;
+    h1 {
+      font-size: 50px;
+    }
+  
+   .container {
+      margin: 35px 5px 5px 0;
    }
 
    img {
-    width: 375px;
-    margin: 70px 0 180px 0;
+    width: 330px;
+    margin: 50px 0 180px 0;
    }
 
    p {
